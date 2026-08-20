@@ -63,3 +63,11 @@ OldPhoneKeypad/
 ## Error Handling
 
 ...
+
+
+## AI Usage
+
+AI assistance was used during development for code review, refactoring,
+testing, and documentation.
+
+See [AI-PROMPT.md](AI-PROMPT.md) for details about the AI tool and prompt.

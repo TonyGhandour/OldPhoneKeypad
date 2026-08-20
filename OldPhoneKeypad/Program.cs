@@ -1,8 +1,8 @@
 ﻿using System;
 
-class Program
+public class PhoneKeypad
 {
-    public static Dictionary<char, string> digitMapping = new Dictionary<char, string>()
+    public Dictionary<char, string> digitMapping = new Dictionary<char, string>()
     {
         {'1', "&'("}, {'2', "abc"},
         {'3', "def"}, {'4', "ghi"},
@@ -11,7 +11,7 @@ class Program
         {'9', "wxyz"}, {'0', " "}
     };
 
-    public static String GetOldPhoneNumber(string input)
+    public String OldPhonePad(string input)
     {
         string ans = ""; int i = 0;
         while (i < input.Length)
@@ -42,16 +42,5 @@ class Program
             if (currentChar == '#') break;
         }
         return ans;
-    }
-
-    public static void Main(string[] args)
-    {
-        for (int i = 0; i < 20; i++)
-        {
-            Console.WriteLine("Enter the number: ");
-            string input = Console.ReadLine();
-            string output = GetOldPhoneNumber(input);
-            Console.WriteLine("output: " + output);
-        }
     }
 }

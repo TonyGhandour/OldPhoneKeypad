@@ -1,3 +1,4 @@
 <Solution>
+  <Project Path="OldPhoneKeypad.Tests/OldPhoneKeypad.Tests.csproj" Id="e3b6168d-3e40-4129-aef3-6ff0a7a5d5ad" />
   <Project Path="OldPhoneKeypad/OldPhoneKeypad.csproj" />
 </Solution>

@@ -1,5 +1,6 @@
 <Solution>
   <Folder Name="/Solution Items/">
+    <File Path="HOW-TO.md" />
     <File Path="README.md" />
   </Folder>
   <Project Path="OldPhoneKeypad.Api/OldPhoneKeypad.Api.csproj" Id="2936939e-dec4-4ab5-967a-b395bef299aa" />
